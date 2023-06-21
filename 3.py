@@ -1,7 +1,5 @@
 import zipfile
 
-# ZIPファイルのパス
-
 # 合計値の初期化
 total_sum = 0
 
