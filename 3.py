@@ -1,13 +1,12 @@
 import zipfile
 
 # ZIPファイルのパス
-zip_file_path = 'C:/Users/hibiki/Documents/Seminar/RJ/Python/sample.zip'
 
 # 合計値の初期化
 total_sum = 0
 
 # ZIPファイルを展開
-with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+with zipfile.ZipFile("sample.zip", 'r') as zip_ref:
     # ZIPファイル内のファイルを取得
     file_list = zip_ref.namelist()
     
