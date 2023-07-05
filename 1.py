@@ -1,5 +1,9 @@
 import sys
 
+import os
+print(os.getcwd())
+
+
 def sum(number):
     sum = 0
     for i in range(len(number)):
@@ -8,7 +12,9 @@ def sum(number):
 
 nums = []  # 整数を入れるリスト
 
-with open('C:/Users/hibiki/Documents/Seminar/RJ/Python/2023/RJ/data.txt', 'r') as fin:  # ファイルを開く
+path = 'data.txt'
+
+with open(path, 'r') as fin: # ファイルを開く
     for line in fin.readlines():  # 行を読み込んでfor文で回す
         line = line.strip()
         if line:

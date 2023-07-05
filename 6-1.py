@@ -14,7 +14,7 @@ def nose_value(zip_ref, file):
 
 
 # ZIPファイルを展開
-with zipfile.ZipFile("C:/Users/hibiki/Documents/Seminar/RJ/Python/2023/RJ/kabeposter.zip", 'r') as zip_ref:
+with zipfile.ZipFile("kabeposter.zip", 'r') as zip_ref:
     # ZIPファイル内のファイルを取得
     file_list = zip_ref.namelist()
 

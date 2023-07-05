@@ -4,7 +4,7 @@ import zipfile
 total_sum = 0
 
 # ZIPファイルを展開
-with zipfile.ZipFile("C:/Users/hibiki/Documents/Seminar/RJ/Python/2023/RJ/sample.zip", 'r') as zip_ref:
+with zipfile.ZipFile("sample.zip", 'r') as zip_ref:
     # ZIPファイル内のファイルを取得
     file_list = zip_ref.namelist()
     

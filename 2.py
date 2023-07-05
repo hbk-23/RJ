@@ -26,4 +26,4 @@ def value(file):
     print(min)
     
 
-value("C:/Users/hibiki/Documents/Seminar/RJ/Python/2023/RJ/catalog.json")
+value("catalog.json")
